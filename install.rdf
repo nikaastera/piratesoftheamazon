@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="pirates-of-the-amazon@work"
+                   em:name="Enrique B. and John S."
+                   em:version="0.6.1"
+                   em:creator="Pirates of the Amazon"
+                   em:homepageURL="http://pirates-of-the-amazon.com/"
+				   em:iconURL="chrome://piratesoftheamazon/content/icons/pirate_icon.png"
+                   em:updateURL="http://pirates-of-the-amazon.com/update.rdf"
+				   em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7Qhg4BiFI2Bu6RijypX3t3fKV9T27D9GjAL9SLH0SG5nYspHuyP7LyNGwOTZofw2w9OwdI8NhXYIr0PTbCRrGHDQ53hB1CmCm6/T7aUF7rlHlN8BsoKS4LBWzgWkkBAWaFyrNkZb9Hd8n6S/ysqeQOqnvfQ1unPEyvvihu3IlSwIDAQAB">
+    <em:targetApplication RDF:resource="rdf:#$j4u.C3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$j4u.C3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="5.0.*" />
+</RDF:RDF>
